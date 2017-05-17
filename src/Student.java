@@ -1,6 +1,8 @@
 
 public class Student {
-	private String fullName;
+	
+	 String fullName="";  
+	
 	
 	public Student(String name ){
 		this.fullName = name;
@@ -15,6 +17,13 @@ public class Student {
 		this.fullName = fullName;
 		
 	}
+
+	public int lastIndexOf(char c) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
 	
 
 }//class

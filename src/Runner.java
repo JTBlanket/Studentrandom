@@ -33,6 +33,10 @@ public class Runner {
 	}
 
 	private void pickRandomStudent(Student[] B3) {
+		String fullName="";  
+		 String[]str;
+		String firstName=""; 
+		String lastName="";
 		while (true){
 		for( int i = 0; i <1; i++){
 			int index = new Random().nextInt(B3.length);
@@ -43,7 +47,9 @@ public class Runner {
 				System.out.println("would you like to randomize? yes or no");
 				String question = scanner.nextLine();
 				if (question.equals("yes")){
-					System.out.println("\n random selection -- " + randomWord.getFullName().split(""));
+				
+					 str = fullName.split(" "); 
+					System.out.println("\n random selection -- " + randomWord.getFullName());
 				}
 				if (question.equals("no")){
 					System.out.println("BYE!");
